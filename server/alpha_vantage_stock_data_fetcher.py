@@ -1,7 +1,5 @@
 import requests
-
-# Replace 'YOUR_API_KEY' with your actual Alpha Vantage API key
-API_KEY = 'ZFBDZCLZWW3SWPZL'
+from config import API_KEY
 
 # Define the API endpoint URL
 endpoint = 'https://www.alphavantage.co/query'
